@@ -25,7 +25,7 @@ prices, built on **Scala + Apache Spark + Hadoop HDFS + Apache Kafka**.
 Indian agricultural commodity prices are reported daily from thousands of
 *mandis* (regulated market yards). A price that suddenly departs from its own
 recent history may signal a supply shock, a hoarding episode, a transport
-failure, or simply a mis-keyed report — and telling these apart matters to
+failure or simply a mis-keyed report — and telling these apart matters to
 farmers deciding when to sell and to agencies deciding when to intervene.
 
 Doing this at national scale is a **Big Data** problem, not a modelling
@@ -500,7 +500,7 @@ Stated honestly, because they are the questions a viva will ask:
    India Mandi is a *supporting* source, not a merged one.
 6. **India Mandi ends 2024-02-02**, so it cannot supply `Arrivals` features for
    the 2025/26 records used in testing and streaming.
-7. **AGMARKNET data is absent**, not substituted.
+7. **AGMARKNET data is absent** not substituted.
 
 ---
 
